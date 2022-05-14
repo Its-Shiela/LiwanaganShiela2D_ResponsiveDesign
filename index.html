@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale= 1.0"> 
+		<title>Genshin Impact</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+	</head>
+
+	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="images/15.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li class="nav-links"><a href="#home">HOME</a></li>
+						<li class="nav-links"><a href="#character">CHARACTERS</a></li>
+						<li><a href="#map">MAP</a></li>
+						<li><a href="#about">ABOUT US</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars"\ onclick="showMenu()"></i>
+			</nav>
+			<div class="text-box">
+				<h1>Greatest Role Playing Game</h1>
+				<p>A vast of magical world</p>
+				<a href="" class="hero-btn">Visit us to know more</a>
+			</div>
+
+		</section>
+		<!------features---->
+
+		<section class="game-features">
+			<h1>Game Features</h1>
+			<p>Let's go to a fantastic adventure!</p>
+
+			<div class="row">
+				<div class = "game-features-col">
+					<h3>Epic Fantasy Adventure</h3>
+					<p>Experience an immersive single-player campaign. As a traveler from another world, you will embark on a journey to reunite with your long-lost sibling and unravel the mysteries of Teyvat, and yourself.</p>
+				</div>
+
+				<div class = "game-features-col">
+					<h3>World To Discover</h3>
+					<p>Fly across the open world, swim through crystal-clear waters, and climb towering mountains. Stray off the beaten path to discover all the hidden secrets of a world full of wonder and mystery.</p>
+					
+				</div>
+
+				<div class = "game-features-col">
+					<h3>Travel Alone or Battle Together</h3>
+					<p>Charge head-on into battles solo, or invite friends to join the fight against dangerous monsters with 4-player cross-play for PS4, iOS, Android, and PC.</p>
+				</div>
+
+				<div class = "game-features-col">
+					<h3>Master the Seven Elements</h3>
+					<p>Not just another mindless hack and slash. Manipulating the various elements is the key to defeating powerful enemies and solving challenging puzzles.</p>
+				</div>
+
+				<div class = "game-features-col">
+					<h3>Build your dream team</h3>
+					<p>Choose who fights by your side. Build your party from over 20+ characters (with more to come) — each with unique abilities, personalities, and combat styles.</p>
+					
+				</div>
+
+			</div>
+			
+		</section>
+		<!-------screenshots------->
+
+		<section class = "pictures">
+			<h1>Game Screenshots</h1>
+			<div class = "row">
+
+				<div class="pictures-col">
+					<img src="images/img3.jpg">
+					<div class="layer">
+						<h3>Adventure</h3>
+					</div>
+				</div>
+
+				<div class = "pictures-col">
+					<img src="images/img4.jpg">
+					<div class = "layer">
+						<h3>Discover</h3>
+					</div>
+					
+				</div>
+
+				<div class = "pictures-col">
+					<img src="images/img6.png">
+					<div class = "layer">
+						<h3>Battle</h3>
+					</div>
+					
+				</div>
+
+				<div class = "pictures-col">
+					<img src="images/img5.jpg">
+					<div class = "layer">
+						<h3>Elements</h3>
+					</div>
+					
+				</div>
+
+				<div class = "pictures-col">
+					<img src="images/img7.jpg">
+					<div class = "layer">
+						<h3>Build</h3>
+					</div>
+					
+				</div>
+
+
+			</div>
+		</section>
+
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Tech Otakus Save the World</p>
+
+			<div class="icons">
+				<i class="fa fa-facebook-square"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-envelope"></i>
+				<i class="fa fa-twitter-square"></i>
+			</div>
+			<p>For educational purposes only</p>
+
+		</section>
+
+		<script type="text/javascript">
+			
+			var navLinks = document.getElementById("navLinks");
+
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+		
+	
+
+</html>
